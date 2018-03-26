@@ -1,0 +1,6 @@
+@import 'app/libs/bourbon/core/_bourbon.scss';
+
+@include font-face("Source-Sans-Pro","../fonts/SourceSansPro/SourceSansProRegular/SourceSansProRegular",$file-formats:eot woff ttf);
+@include font-face("Lato-Black","../fonts/Lato-Black/Lato-Black",$file-formats:ttf);
+@include font-face("Lato","../fonts/Lato2OFL/Lato-Regular",$file-formats:ttf);
+// @include font-face("SourceSansPro","../fonts/source-sans-pro_[allfont.ru]",$file-formats:ttf);

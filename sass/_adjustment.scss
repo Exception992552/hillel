@@ -1,0 +1,105 @@
+
+html,body,div,ul,li,nav,header,section,a,input,p,span{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+	outline: none;
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+	white-space: nowrap;
+	&:link,&:visited,&:active{color:$blue-color;}
+}
+
+
+li {
+	list-style:none;
+}
+ul {
+	font-family: "Source-Sans-Pro";
+
+}
+span {
+	white-space: nowrap;
+}
+input {
+	border: none;
+	
+}
+p {
+font-family: "Source-Sans-Pro";
+}
+
+.h1{
+	text-transform:uppercase;
+	font-size: 60px;
+	color:#fff;
+	line-height: 33px;
+	letter-spacing: 3px;
+	}
+
+.h1,.h2,.h3 {
+	font-family: "Lato-Black";
+}
+
+.flex {
+	display: flex;
+	align-items:center;
+}
+
+.grid {
+	display:grid;
+}
+
+.before {
+	margin-right: 10px;
+	font-size: 15px;
+	font-family: FontAwesome;
+	
+}
+.before-social {
+font-family: FontAwesome;
+position: absolute;
+font-size:12px;
+color:$blue-color;
+line-height: 40px;
+text-align: center;
+}
+
+.after {
+	font-size: 12px;
+	font-family: FontAwesome;
+	position: absolute;
+}
+p.text-composition{
+	font-size: 21px;
+	font-weight: 400;
+}
+
+.before-hover-img {
+	content:'';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color:$accent-color;
+	transition:all 0.5s ease;
+}
+.after-hover-img {
+	content:'\f067';
+	font-family:FontAwesome;
+	font-size: 50px;
+	color:#fff;
+	font-weight: thin;
+	transform:scale(0);
+	z-index: 2;
+	transition:all 0.5s ease;
+	// display: inline-block;
+}
+
+
+
+
